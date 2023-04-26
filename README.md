@@ -1,8 +1,9 @@
 
 # icmp-send-file
-Written in python3.  Just something I was messing around with one day.  :p
-Send contents of a file line by line via icmp (ping) packets
-Uses scapy to send icmp packets
+Written in python3.  Just something I was messing around with one day.  :p\
+Send contents of a file line by line via icmp (ping) packets\
+Uses scapy to send icmp packets\
+you will need to run both as root.
 
 # Files
 
