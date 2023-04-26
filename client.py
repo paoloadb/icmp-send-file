@@ -10,7 +10,7 @@ var = open(sys.argv[2])
 
 try:
     for i in var:
-        pkt = IP(src=RandIP(),dst=dstHost)/ICMP()/i.strip()
+        pkt = IP(src=RandIP(),dst=dstHost)/ICMP()/i.strip() #randomize the source ip because why not? hehe
         send(pkt, verbose=0)
 
     var.close()
